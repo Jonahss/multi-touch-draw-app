@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C852BFE1B716F0200096CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C852BFD1B716F0200096CA5 /* AppDelegate.swift */; };
+		2C852C011B716F0200096CA5 /* multi_touch_draw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C852BFF1B716F0200096CA5 /* multi_touch_draw.xcdatamodeld */; };
+		2C852C031B716F0200096CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C852C021B716F0200096CA5 /* ViewController.swift */; };
+		2C852C061B716F0200096CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C852C041B716F0200096CA5 /* Main.storyboard */; };
+		2C852C081B716F0200096CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C852C071B716F0200096CA5 /* Images.xcassets */; };
+		2C852C0B1B716F0200096CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C852C091B716F0200096CA5 /* LaunchScreen.xib */; };
+		2C852C171B716F0200096CA5 /* multi_touch_drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C852C161B716F0200096CA5 /* multi_touch_drawTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C852C111B716F0200096CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C852BF01B716F0200096CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C852BF71B716F0200096CA5;
+			remoteInfo = "multi-touch-draw";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C852BF81B716F0200096CA5 /* multi-touch-draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multi-touch-draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C852BFC1B716F0200096CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C852BFD1B716F0200096CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C852C001B716F0200096CA5 /* multi_touch_draw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = multi_touch_draw.xcdatamodel; sourceTree = "<group>"; };
+		2C852C021B716F0200096CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C852C051B716F0200096CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C852C071B716F0200096CA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C852C0A1B716F0200096CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C852C101B716F0200096CA5 /* multi-touch-drawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multi-touch-drawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C852C151B716F0200096CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C852C161B716F0200096CA5 /* multi_touch_drawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multi_touch_drawTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C852BF51B716F0200096CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C852C0D1B716F0200096CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C852BEF1B716F0200096CA5 = {
+			isa = PBXGroup;
+			children = (
+				2C852BFA1B716F0200096CA5 /* multi-touch-draw */,
+				2C852C131B716F0200096CA5 /* multi-touch-drawTests */,
+				2C852BF91B716F0200096CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C852BF91B716F0200096CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C852BF81B716F0200096CA5 /* multi-touch-draw.app */,
+				2C852C101B716F0200096CA5 /* multi-touch-drawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C852BFA1B716F0200096CA5 /* multi-touch-draw */ = {
+			isa = PBXGroup;
+			children = (
+				2C852BFD1B716F0200096CA5 /* AppDelegate.swift */,
+				2C852C021B716F0200096CA5 /* ViewController.swift */,
+				2C852C041B716F0200096CA5 /* Main.storyboard */,
+				2C852C071B716F0200096CA5 /* Images.xcassets */,
+				2C852C091B716F0200096CA5 /* LaunchScreen.xib */,
+				2C852BFF1B716F0200096CA5 /* multi_touch_draw.xcdatamodeld */,
+				2C852BFB1B716F0200096CA5 /* Supporting Files */,
+			);
+			path = "multi-touch-draw";
+			sourceTree = "<group>";
+		};
+		2C852BFB1B716F0200096CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C852BFC1B716F0200096CA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C852C131B716F0200096CA5 /* multi-touch-drawTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C852C161B716F0200096CA5 /* multi_touch_drawTests.swift */,
+				2C852C141B716F0200096CA5 /* Supporting Files */,
+			);
+			path = "multi-touch-drawTests";
+			sourceTree = "<group>";
+		};
+		2C852C141B716F0200096CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C852C151B716F0200096CA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C852BF71B716F0200096CA5 /* multi-touch-draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C852C1A1B716F0200096CA5 /* Build configuration list for PBXNativeTarget "multi-touch-draw" */;
+			buildPhases = (
+				2C852BF41B716F0200096CA5 /* Sources */,
+				2C852BF51B716F0200096CA5 /* Frameworks */,
+				2C852BF61B716F0200096CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multi-touch-draw";
+			productName = "multi-touch-draw";
+			productReference = 2C852BF81B716F0200096CA5 /* multi-touch-draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C852C0F1B716F0200096CA5 /* multi-touch-drawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C852C1D1B716F0200096CA5 /* Build configuration list for PBXNativeTarget "multi-touch-drawTests" */;
+			buildPhases = (
+				2C852C0C1B716F0200096CA5 /* Sources */,
+				2C852C0D1B716F0200096CA5 /* Frameworks */,
+				2C852C0E1B716F0200096CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C852C121B716F0200096CA5 /* PBXTargetDependency */,
+			);
+			name = "multi-touch-drawTests";
+			productName = "multi-touch-drawTests";
+			productReference = 2C852C101B716F0200096CA5 /* multi-touch-drawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C852BF01B716F0200096CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jonah Stiennon";
+				TargetAttributes = {
+					2C852BF71B716F0200096CA5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2C852C0F1B716F0200096CA5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2C852BF71B716F0200096CA5;
+					};
+				};
+			};
+			buildConfigurationList = 2C852BF31B716F0200096CA5 /* Build configuration list for PBXProject "multi-touch-draw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C852BEF1B716F0200096CA5;
+			productRefGroup = 2C852BF91B716F0200096CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C852BF71B716F0200096CA5 /* multi-touch-draw */,
+				2C852C0F1B716F0200096CA5 /* multi-touch-drawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C852BF61B716F0200096CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C852C061B716F0200096CA5 /* Main.storyboard in Resources */,
+				2C852C0B1B716F0200096CA5 /* LaunchScreen.xib in Resources */,
+				2C852C081B716F0200096CA5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C852C0E1B716F0200096CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C852BF41B716F0200096CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C852C031B716F0200096CA5 /* ViewController.swift in Sources */,
+				2C852BFE1B716F0200096CA5 /* AppDelegate.swift in Sources */,
+				2C852C011B716F0200096CA5 /* multi_touch_draw.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C852C0C1B716F0200096CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C852C171B716F0200096CA5 /* multi_touch_drawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C852C121B716F0200096CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C852BF71B716F0200096CA5 /* multi-touch-draw */;
+			targetProxy = 2C852C111B716F0200096CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C852C041B716F0200096CA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C852C051B716F0200096CA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C852C091B716F0200096CA5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C852C0A1B716F0200096CA5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C852C181B716F0200096CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C852C191B716F0200096CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C852C1B1B716F0200096CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "multi-touch-draw/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C852C1C1B716F0200096CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "multi-touch-draw/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C852C1E1B716F0200096CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "multi-touch-drawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multi-touch-draw.app/multi-touch-draw";
+			};
+			name = Debug;
+		};
+		2C852C1F1B716F0200096CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "multi-touch-drawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multi-touch-draw.app/multi-touch-draw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C852BF31B716F0200096CA5 /* Build configuration list for PBXProject "multi-touch-draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C852C181B716F0200096CA5 /* Debug */,
+				2C852C191B716F0200096CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C852C1A1B716F0200096CA5 /* Build configuration list for PBXNativeTarget "multi-touch-draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C852C1B1B716F0200096CA5 /* Debug */,
+				2C852C1C1B716F0200096CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C852C1D1B716F0200096CA5 /* Build configuration list for PBXNativeTarget "multi-touch-drawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C852C1E1B716F0200096CA5 /* Debug */,
+				2C852C1F1B716F0200096CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C852BFF1B716F0200096CA5 /* multi_touch_draw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C852C001B716F0200096CA5 /* multi_touch_draw.xcdatamodel */,
+			);
+			currentVersion = 2C852C001B716F0200096CA5 /* multi_touch_draw.xcdatamodel */;
+			path = multi_touch_draw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C852BF01B716F0200096CA5 /* Project object */;
+}
